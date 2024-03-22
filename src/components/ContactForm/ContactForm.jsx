@@ -2,7 +2,8 @@ import React from 'react'
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import * as Yup from "yup";
 import { useId } from 'react';
-import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js';
+
+import { nanoid } from 'nanoid'
 import css from './ContactForm.module.css';
 
 const ContactForm = ({ onAddContact }) => {
